@@ -1,0 +1,300 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+    color:#020E5D;
+
+} 
+body {
+    min-width: 100%;
+    min-height: 100vh;
+  /*  background: linear-gradient(333deg, rgb(138, 241, 102) 28%, rgb(252, 248, 115) 75%);*/
+    /* Created with https://www.css-gradient.com */
+/* Created with https://www.css-gradient.com */
+   /*background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);*/
+  }
+
+  .generalBG{
+    background: #D6E07B;
+background: -webkit-linear-gradient(top left,  #D6E07B,#B2FFFF);
+background: -moz-linear-gradient(top left,  #D6E07B,#B2FFFF);
+background: linear-gradient(to bottom right,  #D6E07B, #B2FFFF);
+    padding-bottom:50px;
+ 
+  }
+  .constrain {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+#top-menu{
+    margin:0 15% 0 10%;
+    font-size: medium;
+  }
+
+#logo{
+    width:150px;
+    margin-top:40px;
+    
+}
+#top-menu>ul{
+    display:flex;
+    flex-direction: row; 
+    list-style-type: none; 
+    float: right;
+    margin-top:70px;
+   
+}
+#top-menu>ul li{
+   padding:15px 30px;
+}
+.btnTopMenu{
+    padding:0px 30px;
+    font-weight:500;
+    font-size:medium;
+    background-color:#15b0ff;
+    color:white;
+    border: 1px none gray;
+    border-radius: 5px;
+}
+
+#intro{
+    display:flex;
+    margin:2% 8% 0 16%;
+    
+
+}
+#intro-description{
+    width:55%;
+}
+#intro-description h1{
+    font-size:70px;
+   
+    /*background: -webkit-linear-gradient(#4cdfff, #15b0ff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;*/
+}
+
+#intro-description h2{
+    margin-top:25px;
+    font-weight:400;
+    font-size:20px;
+}
+.btnAbout{
+    padding:15px 30px;
+    margin-top:70px;
+    font-weight:500;
+    font-size:medium;
+    background-color:#15b0ff;
+    color:white;
+    border: 1px none gray;
+    border-radius: 5px;
+
+}
+
+#profile-photo{
+    margin: -2% 3% 2% 3% ;
+    width:30%;
+    height:18%;
+    border-radius: 25px;
+}
+.anotherBG{
+    
+    padding-bottom:50px;  
+   /* background: linear-gradient(0deg,  #7FFFD4,#B2FFFF,#F0F8FF);
+    background: #F0F8FF;*/
+background: -webkit-linear-gradient(bottom right, #4cdfff, #F0F8FF);
+background: -moz-linear-gradient(bottom right, #4cdfff, #F0F8FF);
+background: linear-gradient(to top left, #4cdfff, #F0F8FF);
+  
+     
+
+}
+.about{
+    padding:10px 15% 10px 15%;
+    
+}
+.about h2{
+    font-size:xx-large;
+    margin-top:5%;
+}
+.about p{
+    margin:20px 0 20px 0;
+    line-height: 30px;
+}
+
+.line-1 {
+    width: 112px;
+    height: 0px;
+    margin: 50px 0 20px 0;
+    border-bottom: 2px solid #15b0ff;
+    position: center;
+ }
+ .toolsDiv{
+    margin:0% 6% 6% 6%;
+    padding:10px 15% 10px 15%;
+}
+.toolsDiv h2{
+    margin-top:5%;
+    font-size:xx-large;
+}
+.toolsDiv p{
+    margin:20px 0 0 0;
+    line-height: 30px;
+}
+
+.tools-image {
+  
+    padding:20px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    box-sizing: border-box;
+    position:relative;
+    display:flex;
+    justify-content: space-around;
+   
+    
+  }
+
+  .toolPic{
+    width:50px;
+  }
+  .elementor-section{
+position:relative;
+  }
+
+  .elementor-shape .elementor-shape-fill {
+    fill: #b9f2ff;
+    transform-origin: center;
+    transform: rotateY(0deg);
+    transform: rotateX(180deg);
+
+   
+}
+.elementor-shape{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+}
+  .elementor-background-overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+  .workPic{
+    background-image: url("/images/work_2.jpg");
+     /* Add the blur effect */
+/*  filter: blur(2px);
+  -webkit-filter: blur(2px);*/
+    opacity: 0.7;
+  /* Full height */
+    height:400px;
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .portfolio{
+    margin:auto 10%;
+    
+  }
+  .portfolio h2{
+    text-align: center;
+    padding-top: 5%;
+    font-size: xx-large;
+  }
+  .first-row, .second-row, .third-row{
+    display: flex;
+    justify-content: space-around;
+    margin:5% auto;
+    border-radius: 25px;
+    text-align:center;
+  }
+  .first-row a,.second-row a,.third-row a{
+    
+    display:inline-block;
+    text-decoration:none;
+    color:#020E5D;
+ }
+ .caption{
+  margin-top: 15px;
+ }
+  .first-row img{
+    
+    width:500px;
+    border-radius: 25px;
+  }
+  
+  .second-row img{
+   width:300px;
+    
+    border-radius: 25px;
+  }
+  .third-row img{
+    width:150px;
+    
+    border-radius: 25px;
+  }
+  .contact-info{
+    text-align: center;
+  }
+
+  .contact-info h2{
+    
+    font-size: xx-large;
+    padding-top: 5%;
+    letter-spacing: 2px;
+  }
+  .contact-info h4{
+    padding-top:2%;
+    letter-spacing: 4px; 
+  }
+  .line-2 {
+    width: 60px;
+    height: 0px;
+    margin: 50px auto 20px auto;
+    border-bottom: 2px solid #15b0ff;
+ }
+ .email-text{
+  margin-top:15px;
+padding:10px 250px 10px 10px;
+border:none;
+border-radius: 1px;
+font-size: medium;
+
+ }
+ .email-btn{
+    margin-top:20px;
+    padding:15px 30px;
+    font-weight:500;
+    font-size:medium;
+    background-color:#15b0ff;
+    color:white;
+    border: 1px none gray;
+    border-radius: 5px;
+
+ }
+ .contact-form{
+
+ }
+
+
+  
+
+
+/* Created with https://www.css-gradient.com */
+/*
+background: #D82BCD;
+background: -webkit-linear-gradient(top left, #D82BCD, #DE273E);
+background: -moz-linear-gradient(top left, #D82BCD, #DE273E);
+background: linear-gradient(to bottom right, #D82BCD, #DE273E); 
+*/
+
